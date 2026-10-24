@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:github.com)",
+      "Bash(nvim:*)",
+      "Bash(~/.local/share/nvim/mason/bin/expert:*)",
+      "Bash(git -C ~/.local/share/nvim/lazy/nvim-lspconfig log --oneline -5 cat ~/.local/share/nvim/lazy/nvim-lspconfig/README.md)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(gh api *)",
+      "WebFetch(domain:api.github.com)"
+    ]
+  }
+}
